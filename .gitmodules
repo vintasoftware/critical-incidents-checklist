@@ -1,0 +1,3 @@
+[submodule "devchecklists"]
+	path = devchecklists
+	url = https://github.com/vintasoftware/devchecklists
