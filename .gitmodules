@@ -1,4 +1,4 @@
 [submodule "devchecklists"]
 	path = devchecklists
-	url = git@github.com:vintasoftware/devchecklists.git
+	url = https://github.com/vintasoftware/devchecklists.git
 	branch = master
