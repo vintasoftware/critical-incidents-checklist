@@ -3,5 +3,7 @@
 	"description": "Dealing with recovery crisis. Based on Saving Great Projects 2017 Python Brasil",
 	"repo": "https://github.com/vintasoftware/crisis-management-checklist",
 	"primary-color": "#4b5767",
-	"langs": ["english"]
+	"langs": {
+		"en": "english"
+	}
 }
