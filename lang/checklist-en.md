@@ -2,34 +2,41 @@
 
 [x] You can mark what you have and come back later.
 
-[ ] Manage the client's expectations 
-* Make sure the client knows from the start that crisis are natural. Disclose your backup plan and recovery process.
+[ ] Manage the client's expectations.
+* Make sure the client knows from the start that critical incidents are natural. Disclose your backup plan and recovery process.
 
 [ ] Assess the severity of the situation.
 * Define what happened, who was affected and what's the impact of the issue.
 
-[ ] Have a transparency policy and take responsability as a team.
+[ ] Declare an incident.
+* Does the issue have impact and complexity that requires a team effort?
 
-[ ] Assigne clear responsabilities for the team.
+[ ] Assign clear responsibilities for the team.
+* Define who will communicate the client, who will fix the issue and who will work on the restoration. 
 
-[ ] Define a recovery and data restauration plan:
-  * [ ] Backup data.
-  * [ ] Identify the bug causing the crisis and issue a hotfix.
+[ ] Have a transparency policy, notify the client and take responsibility as a team.
+
+[ ] Define a recovery and data restoration plan:
+  * [ ] Identify the bug causing the incident and issue a hotfix.
   * [ ] Identify the latest backup with valid data.
-  * [ ] Define the time-frame not covered by the backup where data was lost.
+  * [ ] Define the time-frame not covered by the backup.
   * [ ] Retrace the state of the system during the time-frame not covered by the backup.
-  * [ ] Write data restauration scripts.
+  * [ ] Write data restoration scripts.
+  * [ ] Specify all commands and steps required for the restoration.
 
-[ ] Make sure to specify all commands necessary to run the scripts:
-  * [ ] Test the restauration locally.
-  * [ ] Backup data once more.
+[ ] Execute the plan while providing rapid status updates:
+  * [ ] Test the restoration locally.
+  * [ ] Backup the data.
   * [ ] Restore the lost data.
   * [ ] Identify the data that could not be recovered.
   * [ ] Disclose the lost data to the client.
 
-[ ] Execute the plan while providing rapid status updates.
+[ ] Write an incident postmortem with the team:
+  * [ ] What happened?
+  * [ ] Why the incident occurred?
+  * [ ] What was the resolution? And how effective?
+  * [ ] What would the team do differently?
+  * [ ] What problems did the team encounter?
+  * [ ] What actions will be taken to make sure the incident doesn’t happen again?
 
-[ ] Have a crisis restrospective with the team:
-  * [ ] Document the crisis postmortem.
-  * [ ] Reevaluate the recovery and data restauration plan.
-  * [ ] Update existing practices.
+[ ] Update existing practices.
